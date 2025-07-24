@@ -1,18 +1,3 @@
-/**
- * Enhanced Shopify AccessiBe Accessibility Hotfix
- * 
- * @version 2.0.0
- * @date 2025-07-24
- * @description Safely removes AccessiBe skip-links and redundant ARIA roles
- * @compatibility Shopify, Magento, Universal
- * 
- * Features:
- * - Zero globals (except optional debug flag)
- * - Automatic cleanup and error handling
- * - Configurable timing and retries
- * - Enhanced security and performance
- */
-
 (function() {
     'use strict';
     
